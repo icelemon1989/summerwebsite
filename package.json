@@ -1,0 +1,41 @@
+{
+  "name": "summerwebsite",
+  "version": "1.0.0",
+  "description": "summer ji personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build/watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icelemon1989/summerwebsite.git"
+  },
+  "keywords": [
+    "summer",
+    "website",
+    "react",
+    "redux",
+    "webpack",
+    "babel"
+  ],
+  "author": "Yang Ji (Summer)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icelemon1989/summerwebsite/issues"
+  },
+  "homepage": "https://github.com/icelemon1989/summerwebsite#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.0"
+  }
+}
